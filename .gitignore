@@ -1,0 +1,18 @@
+# *NIX text editors
+*~
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS specific
+.DS_Store
+run.interactive.bat
+.env
+build.bat
+run.bat
