@@ -8,7 +8,7 @@ Add the following snippet to the script section of your `bitbucket-pipelines.yml
 
 ```yaml
 script:
-    - pipe: microsoft/azure-web-apps-deploy:0.0.0
+    - pipe: microsoft/azure-web-apps-deploy:1.0.0
       variables:
         AZURE_APP_ID: $AZURE_APP_ID
         AZURE_PASSWORD: $AZURE_PASSWORD
@@ -75,7 +75,7 @@ Refer to the following documentation for more detail:
 
 ```yaml
 script:
-  - pipe: microsoft/azure-web-apps-deploy:0.0.0
+  - pipe: microsoft/azure-web-apps-deploy:1.0.0
     variables:
       AZURE_APP_ID: $AZURE_APP_ID
       AZURE_PASSWORD: $AZURE_PASSWORD
@@ -89,7 +89,7 @@ script:
 
 ```yaml
 script:
-  - pipe: microsoft/azure-web-apps-deploy:0.0.0
+  - pipe: microsoft/azure-web-apps-deploy:1.0.0
     variables:
       AZURE_APP_ID: $AZURE_APP_ID
       AZURE_AZURE_PASSWORD: $AZURE_PASSWORD
