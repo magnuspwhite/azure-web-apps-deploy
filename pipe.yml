@@ -1,5 +1,5 @@
 name: Azure Web Apps Deploy
-image: mspipes/azure-web-apps-deploy:1.0.0
+image: mspipes/azure-web-apps-deploy:1.0.1
 description: Deploy an application to Azure Web Apps.
 repository: https://bitbucket.org/microsoft/azure-web-apps-deploy
 maintainer: Bitbucket Pipelines team
