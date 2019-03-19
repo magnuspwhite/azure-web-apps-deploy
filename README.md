@@ -92,7 +92,7 @@ script:
   - pipe: microsoft/azure-web-apps-deploy:1.0.0
     variables:
       AZURE_APP_ID: $AZURE_APP_ID
-      AZURE_AZURE_PASSWORD: $AZURE_PASSWORD
+      AZURE_PASSWORD: $AZURE_PASSWORD
       AZURE_TENANT_ID: $AZURE_TENANT_ID
       AZURE_RESOURCE_GROUP: $AZURE_RESOURCE_GROUP
       AZURE_APP_NAME: 'my-site'
