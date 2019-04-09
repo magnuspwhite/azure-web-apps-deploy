@@ -18,8 +18,8 @@ debug() {
     fi
 }
 
-success() { echo -e "${green}✔ $*${reset}"; }
-fail() { echo -e "${red}✖ $*${reset}"; exit 1; }
+success() { echo -e "${green}SUCCESS: $*${reset}"; }
+fail() { echo -e "${red}FAIL: $*${reset}"; exit 1; }
 
 ## Enable debug mode.
 enable_debug() {
